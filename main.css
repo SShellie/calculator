@@ -1,0 +1,182 @@
+
+
+
+.calc {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px;
+  height: 55vw;
+}
+
+.num {
+color: white;
+font-size: 30px;
+}
+
+.operators {
+color: white;
+font-size: 30px;
+}
+
+    /*NUMBERS*/
+
+
+     #period {
+       grid-column-start: 2;
+       grid-column-end: 3;
+       grid-row-start: 5;
+       grid-row-end: 6;
+       background-color: #5cbf41
+    }
+
+     #zero {
+       grid-column-start: 1;
+       grid-column-end: 2;
+       grid-row-start: 5;
+       grid-row-end: 6;
+       background-color: #5cbf41
+    }
+
+     #one {
+       grid-column-start: 1;
+       grid-column-end: 2;
+       grid-row-start: 4;
+       grid-row-end: 5;
+       background-color: #5cbf41
+    }
+
+     #two {
+       grid-column-start: 2;
+       grid-column-end: 3;
+       grid-row-start: 4;
+       grid-row-end: 5;
+       background-color: #5cbf41
+    }
+
+     #three {
+       grid-column-start: 3;
+       grid-column-end: 4;
+       grid-row-start: 4;
+       grid-row-end: 5;
+       background-color: #5cbf41
+    }
+
+     #four {
+       grid-column-start: 1;
+       grid-column-end: 2;
+       grid-row-start: 3;
+       grid-row-end: 4;
+       background-color: #5cbf41
+    }
+
+      #five {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-color: #5cbf41
+      }
+
+      #six {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-color: #5cbf41
+      }
+
+      #seven {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-color: #5cbf41
+      }
+
+      #eight {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-color: #5cbf41
+      }
+
+      #nine {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-color: #5cbf41
+      }
+
+/*OPERATORS*/
+
+      #display {
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-color: #5cbf41;
+        color: white;
+        font-size: 40px;
+     }
+
+      #divide {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        color: black;
+        background-color: #93cc8e;
+      }
+
+      #multiply {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        color: black;
+        background-color: #93cc8e;
+      }
+
+      #minus {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        color: black;
+        background-color: #93cc8e;
+      }
+
+     #plus {
+       grid-column-start: 4;
+       grid-column-end: 5;
+       grid-row-start: 5;
+       grid-row-end: 6;
+       color: black;
+       background-color: #93cc8e;
+      }
+
+     #equal {
+       grid-column-start: 3;
+       grid-column-end: 4;
+       grid-row-start: 5;
+       grid-row-end: 6;
+       font-size: 40px;
+       color: white;
+       background-color: #5cbf41;
+      }
+
+     #clear {
+       grid-column-start: 1;
+       grid-column-end: 2;
+       grid-row-start: 1;
+       grid-row-end: 2;
+       font-size: 40px;
+       color: white;
+       background-color: #5cbf41;
+       }
+
+ button:hover {
+  background-color: #93cc8e;
+}
